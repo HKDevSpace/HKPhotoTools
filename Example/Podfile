@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HKPhotoTools_Example' do
+  pod 'HKPhotoTools', :path => '../'
+
+  target 'HKPhotoTools_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+    pod 'FBSnapshotTestCase'
+  end
+end
