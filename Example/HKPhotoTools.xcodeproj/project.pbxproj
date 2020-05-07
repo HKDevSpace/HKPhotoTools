@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1497A9EAEC4D7B47C8EE0011 /* Pods_HKPhotoTools_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7359EB7B1B991E2551B8CA1 /* Pods_HKPhotoTools_Tests.framework */; };
-		5CC6F9BD1A5D87F2DC560E5F /* Pods_HKPhotoTools_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF0B75C573E17470A015854 /* Pods_HKPhotoTools_Example.framework */; };
+		1765849514E64C6B0338F777 /* libPods-HKPhotoTools_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A8F1B77741A744322BDE8F /* libPods-HKPhotoTools_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A95A5997934B633386A59A44 /* libPods-HKPhotoTools_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D1AF7C7AF308011620B2AD /* libPods-HKPhotoTools_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		52E5B24C42ACA37EB3D70E86 /* HKPhotoTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HKPhotoTools.podspec; path = ../HKPhotoTools.podspec; sourceTree = "<group>"; };
+		52E5B24C42ACA37EB3D70E86 /* HKPhotoTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HKPhotoTools.podspec; path = ../HKPhotoTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		56A8F1B77741A744322BDE8F /* libPods-HKPhotoTools_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HKPhotoTools_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57497AEA3628A370DE7AB847 /* Pods-HKPhotoTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKPhotoTools_Example.release.xcconfig"; path = "Target Support Files/Pods-HKPhotoTools_Example/Pods-HKPhotoTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HKPhotoTools_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HKPhotoTools_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,10 +63,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		773DF57CA4D2FEB3F04A1B3F /* Pods-HKPhotoTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKPhotoTools_Tests.release.xcconfig"; path = "Target Support Files/Pods-HKPhotoTools_Tests/Pods-HKPhotoTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8AE665E03A5636434069EEB0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D7359EB7B1B991E2551B8CA1 /* Pods_HKPhotoTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HKPhotoTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFF0B75C573E17470A015854 /* Pods_HKPhotoTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HKPhotoTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7E10B1C842D4961D508E1C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8AE665E03A5636434069EEB0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B0D1AF7C7AF308011620B2AD /* libPods-HKPhotoTools_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HKPhotoTools_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E10B1C842D4961D508E1C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FFF21B1621F0AE2B55C1D156 /* Pods-HKPhotoTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKPhotoTools_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HKPhotoTools_Tests/Pods-HKPhotoTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				5CC6F9BD1A5D87F2DC560E5F /* Pods_HKPhotoTools_Example.framework in Frameworks */,
+				A95A5997934B633386A59A44 /* libPods-HKPhotoTools_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				1497A9EAEC4D7B47C8EE0011 /* Pods_HKPhotoTools_Tests.framework in Frameworks */,
+				1765849514E64C6B0338F777 /* libPods-HKPhotoTools_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				DFF0B75C573E17470A015854 /* Pods_HKPhotoTools_Example.framework */,
-				D7359EB7B1B991E2551B8CA1 /* Pods_HKPhotoTools_Tests.framework */,
+				B0D1AF7C7AF308011620B2AD /* libPods-HKPhotoTools_Example.a */,
+				56A8F1B77741A744322BDE8F /* libPods-HKPhotoTools_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,7 +193,6 @@
 				FFF21B1621F0AE2B55C1D156 /* Pods-HKPhotoTools_Tests.debug.xcconfig */,
 				773DF57CA4D2FEB3F04A1B3F /* Pods-HKPhotoTools_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				264433CF3DFFA9E088486FB4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,7 +225,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				D28C252421426E24CF1F99CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,6 +246,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "1005753869@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = V6VKV43GP7;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +259,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -296,24 +297,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		264433CF3DFFA9E088486FB4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HKPhotoTools_Example/Pods-HKPhotoTools_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HKPhotoTools/HKPhotoTools.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HKPhotoTools.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HKPhotoTools_Example/Pods-HKPhotoTools_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		54B49E98593022EE24F4DFF4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,26 +317,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D28C252421426E24CF1F99CB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HKPhotoTools_Tests/Pods-HKPhotoTools_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-				"${BUILT_PRODUCTS_DIR}/Kiwi/Kiwi.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kiwi.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HKPhotoTools_Tests/Pods-HKPhotoTools_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EC29208C2B600F64E872D6BE /* [CP] Check Pods Manifest.lock */ = {
@@ -515,6 +478,7 @@
 			baseConfigurationReference = 6AD98F8FD8DD3DF751980516 /* Pods-HKPhotoTools_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V6VKV43GP7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HKPhotoTools/HKPhotoTools-Prefix.pch";
 				INFOPLIST_FILE = "HKPhotoTools/HKPhotoTools-Info.plist";
@@ -531,6 +495,7 @@
 			baseConfigurationReference = 57497AEA3628A370DE7AB847 /* Pods-HKPhotoTools_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V6VKV43GP7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HKPhotoTools/HKPhotoTools-Prefix.pch";
 				INFOPLIST_FILE = "HKPhotoTools/HKPhotoTools-Info.plist";

@@ -6,10 +6,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HKPhotoPickerViewModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HKPhotoPickerView : UIView
+
+@property (strong, nonatomic, readonly) HKPhotoPickerViewModel *viewModel;
+
+- (instancetype)initWithViewModel:(HKPhotoPickerViewModel *)viewModel;
+
 
 
 @end

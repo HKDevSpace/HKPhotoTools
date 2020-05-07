@@ -4,8 +4,14 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - HKPhotoTools (0.1.0)
+  - HKPhotoTools (0.1.0):
+    - HKPhotoTools/PhotoPicker (= 0.1.0)
+  - HKPhotoTools/PhotoPicker (0.1.0):
+    - Masonry
+    - ReactiveObjC
   - Kiwi (3.0.0)
+  - Masonry (1.1.0)
+  - ReactiveObjC (3.1.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -16,6 +22,8 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - FBSnapshotTestCase
     - Kiwi
+    - Masonry
+    - ReactiveObjC
 
 EXTERNAL SOURCES:
   HKPhotoTools:
@@ -23,9 +31,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  HKPhotoTools: 1add338c98d923d4e7331c1669815909614f109e
+  HKPhotoTools: a063eb76a429c506ab00d642a621480e25c32004
   Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
 
-PODFILE CHECKSUM: 9a29122a7abdb6ea4ecd1e6ce6be5182bad48477
+PODFILE CHECKSUM: dc3bd5790e9f4399a3f1531f905c44c4e9f885c5
 
 COCOAPODS: 1.7.5

@@ -28,15 +28,14 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/1005753869@qq.com/HKPhotoTools.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'HKPhotoTools/Classes/**/*'
+  s.subspec 'PhotoPicker' do |pp|
+    pp.source_files = 'HKPhotoTools/Classes/PhotoPicker/**/*.{h,m}'
+    
+    pp.dependency 'Masonry'
+    pp.dependency 'ReactiveObjC'
+    
+  end
   
-  # s.resource_bundles = {
-  #   'HKPhotoTools' => ['HKPhotoTools/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
